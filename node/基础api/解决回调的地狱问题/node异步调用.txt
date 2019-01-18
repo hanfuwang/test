@@ -1,0 +1,2 @@
+1.nodejs的promisify函数
+2.es6的async,await异步调用

@@ -1,0 +1,6 @@
+(1)path用法
+1.normalize(规范化路径) join（拼接路径） resolve(相对路径解析成绝对路径)
+basename extname dirname
+parse format
+sep delimiter win32 posix
+

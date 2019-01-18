@@ -1,0 +1,23 @@
+1.什么是nodejs
+答：Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。 
+Node.js 使用了一个事件驱动、非阻塞式 I/O 的模型，使其轻量又高效。 
+2.什么是非阻塞I/O模型，什么是阻塞I/O模型
+答：I/O时函数立即返回，进程不用等待I/O完成，I/O时进程休眠等待，I/O完成后进行下一步
+3.什么是事件驱动
+答：事件驱动是I/O等异步操作完成后的通知
+4.commonjs规范
+答：（1）每个文件是一个模块，有自己的作用域
+       （2）在模块内部module变量代表模块本身
+       （3）module.exports属性代表模块对外接口
+5.require规则
+（1）/表示绝对路径，./表示相对于当前文件的
+（2）支持js，json，node扩展名，不写依次尝试
+（3）不写路径则认为是bulid_in模块或者各级node——modules内的第三方模块。
+6.requier特性
+(1)module被加载的时候执行，加载后缓存
+(2)一旦出现某个模块被循环加载，就只输出已经执行的部分，还未执行的部分不会输出
+7. exports和module.exports是等价的
+8.global变量
+（1）含有的全局对象：1.commonJs,2.Buffer,process,console3.timer
+9.process进程
+10.debug

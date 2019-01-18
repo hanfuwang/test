@@ -1,0 +1,9 @@
+setImmediate(()=>{
+	console.log("setImmediate")
+})//最慢
+setTimeout(()=>{
+	console.log("setTimeout")
+},0)//快
+process.nextTick(()=>{
+	console.log("nextTick")
+})//最快
